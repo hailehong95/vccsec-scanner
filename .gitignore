@@ -1,0 +1,21 @@
+.env/
+.idea/
+*.spec
+bin/
+key/
+build/
+tests/
+releases/
+__pycache__/
+rsa_keys/key.pri
+utils/*.pyc
+scanner/*.pyc
+packages/*[.exe, .zip]
+utils/__pycache__/
+scanner/__pycache__/
+packer/upx_lin32/upx
+packer/upx_lin64/upx
+packer/upx_win32/upx.exe
+packer/upx_win64/upx.exe
+bzc_config_control.py
+test-bizfly-cloud.py
