@@ -10,8 +10,9 @@ BIN_DIR = os.path.join(BASE_DIR, 'bin')
 KEY_DIR = os.path.join(BASE_DIR, 'key')
 TEST_DIR = os.path.join(BASE_DIR, 'tests')
 CWD_DIR = os.getcwd()
-# Please change Base url (s3)
-BASE_URL = 'https://your-base-url'
+# Please change base_url and snippet_url
+BASE_URL = 'https://s3.example.test'
+SNIPPET_URL = 'https://your-snippet-url'
 
 # SysInternal Binary
 AUTORUN_BIN = 'autorunsc.exe'

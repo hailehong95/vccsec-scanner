@@ -11,6 +11,7 @@ import requests
 from boto3.s3.transfer import TransferConfig
 from botocore.exceptions import ClientError
 from scanner.setting import TEST_DIR, BASE_URL
+from scanner.setting import SNIPPET_URL as snippet_url
 
 
 # Ref: https://stackoverflow.com/a/35870294
@@ -32,11 +33,9 @@ def write_json_file(json_data, file_name):
         print(err)
 
 
-# Please change snippets_url
 def bzc_load_config():
     try:
-        snippets_url = 'https://your-snippets-url'
-        res = requests.get(snippets_url)
+        res = requests.get(snippet_url)
         return json.loads(base64.b64decode(codecs.decode(res.text, 'rot_13')).decode())
     except Exception as err:
         print(err)
