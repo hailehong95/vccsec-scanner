@@ -1,4 +1,4 @@
-Download UPX Packer và đặt vào thư mục tương ứng:
+Download UPX packer and place it in the respective folder:
 
 ```bash
 # UPX Linux 32-bits
@@ -14,4 +14,4 @@ packer/upx_win32/upx.exe
 packer/upx_win64/upx.exe
 ```
 
-Tham khảo: https://github.com/upx/upx
+Reference: https://github.com/upx/upx

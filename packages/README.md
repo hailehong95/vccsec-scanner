@@ -1,1 +1,1 @@
-Contain all executable dependencies.
+Contains all executable dependencies.
