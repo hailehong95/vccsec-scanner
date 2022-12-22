@@ -1,3 +1,8 @@
+# Update 2022-12-22: I no longer maintain this project. It's moved to [**MalCheck-Client**](https://github.com/hailehong95/malcheck-client)
+
+
+----
+
 
 # VCCSEC Scanner
 
